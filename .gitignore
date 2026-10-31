@@ -1,0 +1,39 @@
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.key
+credentials.json
+secrets.json
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Original private transaction records
+rolla_purchases.txt
+rolla_redemptions.txt
+private_data/
+raw_data/
+
+# Temporary and generated files
+*.log
+*.tmp
+~$*.xlsx
+output/
+outputs/
